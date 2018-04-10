@@ -8,7 +8,7 @@ API results may be filtered by date and/or title.
 #### Running steps 
 
 - ``` composer install ```
-- ``` mv .env.example .env ```
+- ``` cp .env.example .env ```
 - ``` php artisan key:generate ```
 - ``` contect application to mysql database by add database access in .env file ```
 - ``` php artisan config:cache ```
