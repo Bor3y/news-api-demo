@@ -13,7 +13,7 @@ use Faker\Generator as Faker;
 |
 */
 
-$factory->define(App\News::class, function (Faker $faker) {
+$factory->define(App\Models\News::class, function (Faker $faker) {
     return [
         'date' => $faker->date(),
         'title' => $faker->sentence(3),
